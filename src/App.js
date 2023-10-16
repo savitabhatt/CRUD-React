@@ -8,7 +8,7 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Create />}></Route>
+          <Route exact path="/CRUD-React" element={<Create />}></Route>
           <Route path="/read" element={<Read />}></Route>
           <Route path="/update" element={<Update />}></Route>
         </Routes>
